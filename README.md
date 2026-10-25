@@ -2,13 +2,13 @@
 
   <!-- HERO BANNER (DEVOPS INFINITY LOOP LOGO) -->
   <a href="https://github.com/cpandey1993-ux">
-    <img src="./assets/devops-hero-banner.png" alt="Chandan Pandey - DevOps, DevSecOps, Cloud Architect" width="100%" />
+    <img src="./assets/devops-hero-banner.png" alt="Chandan Pandey - DevSecOps Engineer" width="100%" />
   </a>
 
   <br/><br/>
 
   <h1>Hi, I'm Chandan Pandey 👋</h1>
-  <h3>⚡ Senior Cloud, DevSecOps &amp; Infrastructure Architect</h3>
+  <h3>⚡ DevSecOps &amp; Cloud Engineer</h3>
 
   <p align="center">
     <!-- Quick Contact Badges -->
@@ -20,7 +20,7 @@
 
   <!-- DYNAMIC TYPING SVG -->
   <a href="https://github.com/cpandey1993-ux">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=00F0FF&center=true&vCenter=true&random=false&width=750&lines=Senior+Cloud%2C+DevSecOps+%26+Infrastructure+Architect;Azure+Enterprise+Landing+Zones+%7C+Zero-Trust+GitOps;Terraform+Modular+IaC+%7C+Continuous+Drift+Detection;Multi-Stage+YAML+CI%2FCD+Automation+%7C+Self-Hosted+Runners;100%2B+Workload+Migration+Strategy+%7C+FinOps+Optimization" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=00F0FF&center=true&vCenter=true&random=false&width=750&lines=DevSecOps+%26+Cloud+Engineer;Azure+Cloud+Infrastructure+%7C+Zero-Trust+Security;Terraform+Modular+IaC+%7C+TFLint+%26+State+Locking;Shift-Left+Security+%7C+Checkov%2C+Trivy+%26+GitLeaks;Multi-Stage+YAML+CI%2FCD+Pipelines+%7C+Self-Hosted+Runners" alt="Typing SVG" />
   </a>
 
 </div>
@@ -29,38 +29,29 @@
 
 ## 🚀 About Me
 
-I'm a **DevSecOps Consultant & Cloud Architect** designing, securing, and automating enterprise cloud infrastructure on **Microsoft Azure**. I specialize in **Infrastructure as Code (Terraform)**, secure **CI/CD automation (Azure DevOps multi-stage YAML pipelines)**, and embedding security across the SDLC — turning manual, error-prone deployments into repeatable, auditable, self-service platforms.
+I'm a **DevSecOps Engineer** dedicated to building, securing, and automating cloud infrastructure on **Microsoft Azure**. I specialize in **Infrastructure as Code (Terraform)**, secure **CI/CD automation (Azure DevOps multi-stage YAML pipelines)**, and embedding security across the SDLC — shifting security left through automated scanning, secrets protection, and policy enforcement.
 
-- 🔭 **Specialization:** Enterprise Azure Landing Zones, DevSecOps automation, and zero-drift cloud environments
-- 🛡️ **Security Focus:** Shift-left security, policy-as-code, and GitOps-driven delivery
-- ☁️ **Cloud Depth:** Architecting secure Virtual Networks, Subnets, Bastion hosts, Storage Accounts, and Key Vault
-- ⚙️ **IaC Mastery:** Reusable parent/child Terraform modules with remote state lease locking in Azure Blob storage
-- 💬 **Ask me about:** Terraform, Azure DevOps YAML, Kubernetes, CI/CD security, and FinOps
+- 🛡️ **DevSecOps Focus:** Shift-left security testing (GitLeaks, Checkov, Trivy) and policy-as-code
+- ⚙️ **Infrastructure as Code:** Developing reusable, modular Terraform configurations with remote state management and Azure Blob locking
+- 🚀 **CI/CD Automation:** Designing multi-stage Azure DevOps YAML pipelines with automated testing, approval gates, and self-hosted runners
+- ☁️ **Azure Cloud Services:** Provisioning and maintaining secure Virtual Networks, Subnets, Key Vault, Storage Accounts, and Virtual Machines
+- 🐳 **Containers & Systems:** Docker containerization, Kubernetes fundamentals, Linux administration, and PowerShell/Bash scripting
+- 💬 **Ask me about:** Terraform, Azure DevOps YAML, DevSecOps pipelines, GitLeaks, Checkov, and automation scripting
 - 📍 **Location:** Delhi, India
 
 ---
 
-## 🏆 Key Enterprise Highlights (Architecture & Governance)
+## 🏆 Key DevSecOps Engineering Practices
 
-```
-+--------------------------------------------------------------------------------------------------+
-|                                    10 Scalability & Quality Pillars                               |
-|                                                                                                  |
-|  1. Scalable      2. Robust        3. Secure        4. Reliable       5. Portable                |
-|  6. Governed      7. High Avail    8. Cost-Optim    9. Backed Up      10. Compliant & Monitored  |
-+--------------------------------------------------------------------------------------------------+
-```
-
-- 🏛️ **Enterprise Governance & CAF:** Structured Tenant Root hierarchy separating Platform Management Groups (*Identity, Management, Connectivity*) from Workload Landing Zones (*Corp, Online, Dev, UAT, Prod Subscriptions*).
-- ⚙️ **Terraform Modular Engineering:** Engineered decoupled, reusable child modules (`azurerm_resource_group`, `azurerm_vnet`, `azurerm_subnet`, `azurerm_storage_account`, `azurerm_keyvault`, `azurerm_vm`, `azurerm_bastion`) backed by Azure Blob remote state lease locking.
-- 🔒 **Zero-Trust & Shift-Left DevSecOps:** Integrated automated security gates (**GitLeaks, Checkov, Trivy, TFLint, Infracost**) before deployment; enforced manual approval gates (`ManualValidation@1`) before production mutation.
-- 🌐 **Enterprise Hub-and-Spoke Networking:** Centralized traffic inspection via Azure Firewall/NVAs with UDRs (`0.0.0.0/0`), Private Endpoints for PaaS, and private DNS resolution.
-- 🔄 **100+ Workload Cloud Migration Strategy:** 5-phase migration framework (*Discovery, Assessment, Readiness, Cutover, Hypercare*) with minimal downtime windows.
-- 💰 **FinOps & Cloud Economics:** Eliminating zombie resources (unattached disks, idle public IPs), 30-day rightsizing, and automated scheduling.
+- 🛡️ **Shift-Left Security & Code Quality:** Integrating automated secret detection (**GitLeaks**), IaC security scanning (**Checkov**), container vulnerability assessment (**Trivy**), and static code linting (**TFLint**) directly into pre-commit and PR validation gates.
+- ⚙️ **Modular Terraform Development:** Authoring decoupled, reusable child modules (`azurerm_resource_group`, `azurerm_vnet`, `azurerm_subnet`, `azurerm_storage_account`, `azurerm_keyvault`, `azurerm_vm`, `azurerm_bastion`) backed by Azure Blob remote state lease locking to prevent race conditions.
+- 🚀 **Multi-Stage CI/CD Automation:** Engineering Azure DevOps YAML pipelines with strict stage separation (`Validate & Lint` $\rightarrow$ `Security Scan` $\rightarrow$ `Terraform Plan` $\rightarrow$ `Approval Gate` $\rightarrow$ `Deploy/Apply`) running on dedicated self-hosted runners (`Chandan_self_hosted`).
+- 🔒 **Cloud Identity & Secrets Management:** Enforcing Microsoft Entra ID role-based access control (RBAC), Azure Key Vault secret injection, and managed identities to eliminate hardcoded credentials in code and pipelines.
+- 📜 **Operational Automation & Alerting:** Building automated notification and maintenance scripts in PowerShell and Bash integrated with Slack Webhooks and SMTP.
 
 ---
 
-## 🏗️ End-to-End Enterprise DevSecOps Pipeline Architecture
+## 🏗️ End-to-End Enterprise DevSecOps Pipeline Workflow
 
 ```mermaid
 flowchart TD
@@ -68,21 +59,19 @@ flowchart TD
         A["👨‍💻 Git Push / PR (Trunk-Based)"] --> B["🔍 GitLeaks (Secret & Credential Scan)"]
         B --> C["🛡️ Checkov & Trivy (SAST & CVE Scanning)"]
         C --> D["📐 TFLint & Terraform Validation"]
-        D --> E["💰 Infracost (Cloud Spend Estimation)"]
     end
 
-    subgraph S2 ["2. Infrastructure Orchestration & Governance"]
-        E --> F["📋 Terraform Plan & Drift Detection"]
-        F --> G{"🛡️ Multi-Party Approval Gate (UAT/Prod)"}
-        G -->|Approved on Main| H["⚡ Terraform Apply (Self-Hosted Runner)"]
-        H --> I["🔒 Remote State Locked in Azure Blob"]
+    subgraph S2 ["2. CI/CD Orchestration & Governance"]
+        D --> E["📋 Terraform Plan & Spec Generation"]
+        E --> F{"🛡️ Manual Approval Gate (Main Branch)"}
+        F -->|Approved| G["⚡ Terraform Apply (Self-Hosted Runner)"]
+        G --> H["🔒 Remote State Locked in Azure Blob"]
     end
 
-    subgraph S3 ["3. Enterprise Azure Landing Zone"]
-        H --> J["🏢 Central Hub VNet (Azure Firewall / VPN / Private DNS)"]
-        J --> K["🌐 Spoke VNets (App, DB, Bastion, Private Endpoints)"]
-        K --> L["📊 Azure Monitor AMA & Central Log Analytics"]
-        L --> M["🔔 Automated Alerts (Slack & Email Notifications)"]
+    subgraph S3 ["3. Secure Azure Infrastructure & Monitoring"]
+        G --> I["☁️ Azure Cloud (VNet, Subnets, VMs, Key Vault)"]
+        I --> J["📊 Azure Monitor & Central Log Analytics"]
+        J --> K["🔔 Automated Alerts (Slack & Email Notifications)"]
     end
 ```
 
@@ -94,8 +83,8 @@ flowchart TD
 <p>
   <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
   <img src="https://img.shields.io/badge/Azure_Networking-0078D4?style=for-the-badge&logo=azure-virtual-machines&logoColor=white" alt="Networking" />
-  <img src="https://img.shields.io/badge/Azure_Firewall-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Firewall" />
   <img src="https://img.shields.io/badge/Azure_Bastion-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Bastion" />
+  <img src="https://img.shields.io/badge/Azure_Storage-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Storage" />
 </p>
 
 ### 🏗️ Infrastructure as Code
@@ -103,10 +92,10 @@ flowchart TD
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/HCL-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="HCL" />
   <img src="https://img.shields.io/badge/TFLint-2088FF?style=for-the-badge&logo=terraform&logoColor=white" alt="TFLint" />
-  <img src="https://img.shields.io/badge/Infracost-00C58A?style=for-the-badge&logo=infracost&logoColor=white" alt="Infracost" />
+  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
 </p>
 
-### 🔄 CI/CD & DevSecOps Automation
+### 🔄 CI/CD & Build Automation
 <p>
   <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Azure DevOps" />
   <img src="https://img.shields.io/badge/Azure_Pipelines-2560E0?style=for-the-badge&logo=azure-pipelines&logoColor=white" alt="Pipelines" />
@@ -114,23 +103,22 @@ flowchart TD
   <img src="https://img.shields.io/badge/Self--Hosted_Agents-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Runners" />
 </p>
 
-### 🛡️ Cloud Security & Governance
+### 🛡️ DevSecOps & Security Tools
 <p>
   <img src="https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Entra ID" />
   <img src="https://img.shields.io/badge/Azure_Key_Vault-0089D6?style=for-the-badge&logo=azure-key-vault&logoColor=white" alt="Key Vault" />
   <img src="https://img.shields.io/badge/Checkov-2C3454?style=for-the-badge&logo=bridgecrew&logoColor=white" alt="Checkov" />
   <img src="https://img.shields.io/badge/Trivy-1B3A57?style=for-the-badge&logo=aqua&logoColor=white" alt="Trivy" />
-  <img src="https://img.shields.io/badge/Azure_Policy-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Policy" />
+  <img src="https://img.shields.io/badge/GitLeaks-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitLeaks" />
 </p>
 
 ### 🐳 Containers & Orchestration
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Azure_Kubernetes_Service_(AKS)-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="AKS" />
 </p>
 
-### 📊 Monitoring, Cost & Observability
+### 📊 Monitoring, Logging & Alerts
 <p>
   <img src="https://img.shields.io/badge/Azure_Monitor-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Monitor" />
   <img src="https://img.shields.io/badge/Log_Analytics-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Log Analytics" />
@@ -155,7 +143,7 @@ flowchart TD
 | :--- | :--- | :--- | :--- |
 | **[Chandan_terraform_module](https://github.com/cpandey1993-ux/Chandan_terraform_module)** | Infrastructure as Code | `Terraform` `HCL` `Azure RM` | Production-grade modular Azure architecture implementing reusable child modules (Resource Groups, Storage Accounts, Networking) with strict parameter hygiene and state isolation. |
 | **[Birthday-notification](https://github.com/cpandey1993-ux/Birthday-notification)** | Event Automation & Scripting | `PowerShell` `Slack API` `SMTP` | Automated event monitoring and notification utility integrating secure secrets management, Slack Webhook payloads, and SMTP delivery. |
-| **[Chandan-devOps-learning-journey](https://github.com/cpandey1993-ux/Chandan-devOps-learning-journey)** | DevSecOps Knowledge Base | `Linux` `Azure` `DevOps` `Git` | Deep technical repository documenting architectural blueprints, Linux administration, Azure resources, and CI/CD pipelines. |
+| **[Chandan-devOps-learning-journey](https://github.com/cpandey1993-ux/Chandan-devOps-learning-journey)** | DevSecOps Knowledge Base | `Linux` `Azure` `DevOps` `Git` | Deep technical repository documenting DevSecOps practices, Linux administration, Azure resources, and CI/CD pipelines. |
 | **[classic_pipeline_rg](https://github.com/cpandey1993-ux/classic_pipeline_rg)** | Release Engineering | `Azure DevOps` `Pipelines` `ARM` | Infrastructure provisioning and pipeline execution practices leveraging Azure DevOps automation workflows. |
 
 ---
@@ -186,7 +174,7 @@ flowchart TD
 
 ## 🤝 Let's Connect!
 
-I'm always open to discussing **Cloud Architecture, DevSecOps transformations, Landing Zones, and enterprise consulting**:
+I'm always open to discussing **DevSecOps practices, Terraform automation, Azure infrastructure, and CI/CD engineering**:
 
 <div align="center">
 
@@ -199,6 +187,6 @@ I'm always open to discussing **Cloud Architecture, DevSecOps transformations, L
   </a>
 
   <br/><br/>
-  <sub>📍 Based in <strong>Delhi, India</strong> • Open to Senior / Lead DevSecOps &amp; Cloud Platform Engagements</sub>
+  <sub>📍 Based in <strong>Delhi, India</strong> • Open to DevSecOps &amp; Cloud Engineering Opportunities</sub>
 
 </div>
