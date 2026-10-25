@@ -137,14 +137,14 @@ flowchart TD
 
 ---
 
-## 📂 Featured Repositories
+## 📂 Featured Professional Repositories
 
 | Repository | Focus Domain | Technologies & Tools | Implementation Highlights |
 | :--- | :--- | :--- | :--- |
 | **[Chandan_terraform_module](https://github.com/cpandey1993-ux/Chandan_terraform_module)** | Infrastructure as Code | `Terraform` `HCL` `Azure RM` | Production-grade modular Azure infrastructure implementing reusable child modules (Resource Groups, Storage Accounts, Networking) with strict parameter hygiene and state isolation. |
-| **[Birthday-notification](https://github.com/cpandey1993-ux/Birthday-notification)** | Event Automation & Scripting | `PowerShell` `Slack API` `SMTP` | Automated event monitoring and notification utility integrating secure secrets management, Slack Webhook payloads, and SMTP delivery. |
-| **[Chandan-devOps-learning-journey](https://github.com/cpandey1993-ux/Chandan-devOps-learning-journey)** | DevSecOps Knowledge Base | `Linux` `Azure` `DevOps` `Git` | Deep technical repository documenting DevSecOps practices, Linux administration, Azure resources, and CI/CD pipelines. |
-| **[classic_pipeline_rg](https://github.com/cpandey1993-ux/classic_pipeline_rg)** | Release Engineering | `Azure DevOps` `Pipelines` `ARM` | Infrastructure provisioning and pipeline execution practices leveraging Azure DevOps automation workflows. |
+| **[azure-devops-multistage-yaml-pipeline](https://github.com/cpandey1993-ux/azure-devops-multistage-yaml-pipeline)** | CI/CD & Release Engineering | `Azure DevOps` `YAML` `Self-Hosted Agents` | Multi-stage production pipeline with automated validation, static code linting (`TFLint`), manual approval gates (`ManualValidation@1`), and automated delivery to Azure. |
+| **[azure-keyvault-security-automation](https://github.com/cpandey1993-ux/azure-keyvault-security-automation)** | Cloud Security & Secrets | `Azure Key Vault` `Bastion` `Entra ID` | Zero-Trust cloud security automation provisioning Key Vault, Bastion, and Subnets with Managed Identities and pipeline secret injection without exposing static credentials. |
+| **[Chandan-devOps-learning-journey](https://github.com/cpandey1993-ux/Chandan-devOps-learning-journey)** | DevSecOps Engineering Playbook | `Linux` `Docker` `Kubernetes` `Git` | Practical repository documenting hands-on DevSecOps implementations, Linux administration, container orchestration, and cloud automation runbooks. |
 
 ---
 
